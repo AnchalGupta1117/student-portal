@@ -17,12 +17,16 @@ Check out the live application deployed on Vercel:
 ## Screenshots
 
 ### Home Page  
-![Homepage-lightMode Screenshot(screenshots/Homepage-lightMode.png)
+**Lightmode:**
+![Homepage-lightmode Screenshot](screenshots/Homepage-lightmode.png)
+**Darkmode:**
 ![Homepage-darkmode Screenshot](screenshots/Homepage-darkmode.png)
 
 
 ### Login Page  
+**Lightmode:**
 ![Login-lightmode Screenshot](screenshots/Login-lightmode.png)
+**Darkmode:**
 ![Login-darkmode Screenshot](screenshots/Login-darkmode.png)
 
 
