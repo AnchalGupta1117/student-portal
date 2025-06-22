@@ -1,12 +1,72 @@
-# React + Vite
+# Student Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+Student Portal is a React-based web application that allows users to log in, view their dashboard with user-specific data, and log out. It features a sticky navbar and responsive design, providing a smooth user experience.
 
-Currently, two official plugins are available:
+## Features
+- User Login and Logout functionality
+- Sticky Navbar for easy navigation
+- Dashboard displaying user data fetched from an API
+- Responsive design for desktop and mobile
+- Tailwind CSS styling via CDN
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+Check out the live application deployed on Vercel:  
+[https://student-portal-omega-jet.vercel.app](https://student-portal-omega-jet.vercel.app)
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Home Page  
+![Homepage-lightMode Screenshot(screenshots/Homepage-lightMode.png)
+![Homepage-darkmode Screenshot](screenshots/Homepage-darkmode.png)
+
+
+### Login Page  
+![Login-lightmode Screenshot](screenshots/Login-lightmode.png)
+![Login-darkmode Screenshot](screenshots/Login-darkmode.png)
+
+
+### Dashboard  
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+## Getting Started
+
+### Prerequisites
+- Node.js and npm installed on your machine
+
+### Installation and Running Locally
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/AnchalGupta1117/student-portal.git
+    cd student-portal
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser to see the app.
+
+## Deployment
+This project is deployed on Vercel. On each push to the `main` branch, Vercel automatically rebuilds and redeploys the app.
+
+## Technologies Used
+- React
+- React Router DOM
+- Vite
+- Tailwind CSS (via CDN)
+- Vercel (for hosting)
+
+## Author
+Anchal Gupta
+
+---
+
+Feel free to reach out if you have any questions or feedback!
